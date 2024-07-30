@@ -2,6 +2,10 @@
 @import "sidebar";
 @import "chat";
 
+.badge-category__wrapper .badge-category:before {
+  border-radius:10px;
+}
+
 .d-editor-textarea-wrapper,
 .select-kit-header {
   border-radius: var(--mint-border-radius);
